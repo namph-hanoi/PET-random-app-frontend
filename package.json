@@ -22,6 +22,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
     "next": "^13.2.4",
     "next-seo": "^5.15.0",
     "next-sitemap": "^4.0.5",
