@@ -24,6 +24,36 @@ const Main = (props: IMainProps) => (
           <ul className="flex flex-wrap text-xl">
             <li className="mr-6">
               <Link
+                href="/login"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                Login
+              </Link>
+            </li>
+            <li className="mr-6">
+              <Link
+                href="/check-protected/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                Protected route
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <nav>
+          <ul className="flex flex-wrap text-xl">
+            <li className="mr-6">
+              <Link
                 href="/"
                 className="border-none text-gray-700 hover:text-gray-900"
               >
